@@ -140,4 +140,8 @@ function draw() {
   }
   updatePixels();
   drawBorder();
+  noFill();
+  strokeWeight(5);
+  stroke("black");
+  circle(width/2, height/2, width, height)
 }
